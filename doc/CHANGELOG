@@ -4,6 +4,10 @@ Redmine - project management software
 Copyright (C) 2006-2015  Jean-Philippe Lang
 http://www.redmine.org/
 
+== 2015-12-16 v3.2.0-pdf
+
+* Unofficial 'pdf' inline patch http://www.redmine.org/boards/3/topics/26320
+
 == 2015-12-06 v3.2.0
 
 * Defect #17403: Unknown file size while downloading attachment

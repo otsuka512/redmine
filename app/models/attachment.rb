@@ -196,6 +196,10 @@ class Attachment < ActiveRecord::Base
     !!(self.filename =~ /\.(bmp|gif|jpg|jpe|jpeg|png)$/i)
   end
 
+  def pdf?
+    !!(self.filename =~ /\.(pdf)$/i)
+  end
+
   def thumbnailable?
     image?
   end
